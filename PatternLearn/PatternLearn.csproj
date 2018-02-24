@@ -47,6 +47,8 @@
     <Compile Include="Adapter\Print.cs" />
     <Compile Include="Adapter\Banner.cs" />
     <Compile Include="Adapter\PrintBanner.cs" />
+    <Compile Include="Adapter\Properties.cs" />
+    <Compile Include="Adapter\PropertiesPrint.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\BookShelfIterator.cs" />
     <Compile Include="Iterator\Iterator.cs" />
