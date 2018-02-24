@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Iterator
     {
-        static void Main(string[] args)
-        {
-            IteratorTest.Test();
+        bool HasNext();
 
-            Console.ReadKey();
-        }
+        object Next();
     }
 }

@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Aggregate
     {
-        static void Main(string[] args)
-        {
-            IteratorTest.Test();
-
-            Console.ReadKey();
-        }
+        Iterator iterator();
     }
 }
