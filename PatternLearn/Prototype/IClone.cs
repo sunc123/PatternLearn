@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    interface IClone
     {
-        static void Main(string[] args)
-        {
-            PrototypeTest.Test();
+        IClone Clone();
 
-            Console.ReadKey();
-        }
+        void Use(string str);
     }
 }
