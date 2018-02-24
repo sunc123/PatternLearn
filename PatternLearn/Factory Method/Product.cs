@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    abstract class Product
     {
-        static void Main(string[] args)
-        {
-            FactoryTest.Test();
-
-            Console.ReadKey();
-        }
+        public abstract void Use();
     }
 }

@@ -49,6 +49,11 @@
     <Compile Include="Adapter\PrintBanner.cs" />
     <Compile Include="Adapter\Properties.cs" />
     <Compile Include="Adapter\PropertiesPrint.cs" />
+    <Compile Include="Factory Method\Factory.cs" />
+    <Compile Include="Factory Method\FactoryTest.cs" />
+    <Compile Include="Factory Method\IDCard.cs" />
+    <Compile Include="Factory Method\IDCardFactory.cs" />
+    <Compile Include="Factory Method\Product.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\BookShelfIterator.cs" />
     <Compile Include="Iterator\Iterator.cs" />
