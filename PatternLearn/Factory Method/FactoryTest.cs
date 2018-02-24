@@ -21,6 +21,14 @@ namespace PatternLearn
             p1.Use();
             p2.Use();
             p3.Use();
+
+            Console.WriteLine();
+
+            string format = "第{0}个IDCard的姓名是{1}.";
+
+            Console.WriteLine(string.Format(format, 2, ((IDCard)(((IDCardFactory)f).GetProduct(2))).Owner));
+            Console.WriteLine(string.Format(format, 0, ((IDCard)(((IDCardFactory)f).GetProduct(0))).Owner));
+            Console.WriteLine(string.Format(format, 1, ((IDCard)(((IDCardFactory)f).GetProduct(1))).Owner)); 
         }
     }
 }

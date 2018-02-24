@@ -8,6 +8,12 @@ namespace PatternLearn
 {
     abstract class Product
     {
+        protected static int NextNumber = 0;
+
+        protected int id;
+
+        public int ID { get { return id; } }
+
         public abstract void Use();
     }
 }

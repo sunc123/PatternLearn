@@ -8,7 +8,7 @@ namespace PatternLearn
 {
     class IDCardFactory : Factory
     {
-        private List<Product> products = new List<Product>();
+        private Dictionary<int, Product> products = new Dictionary<int, Product>();
 
         public IDCardFactory() { }
 
@@ -19,7 +19,12 @@ namespace PatternLearn
 
         protected override void RegisterProduct(Product product)
         {
-            products.Add(product);
+            products.Add(product.ID,product);
+        }
+
+        public Product GetProduct(int id)
+        {
+            return products[id];
         }
     }
 }
