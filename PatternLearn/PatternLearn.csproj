@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\AdapterTest.cs" />
+    <Compile Include="Adapter\Print.cs" />
+    <Compile Include="Adapter\Banner.cs" />
+    <Compile Include="Adapter\PrintBanner.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\BookShelfIterator.cs" />
     <Compile Include="Iterator\Iterator.cs" />

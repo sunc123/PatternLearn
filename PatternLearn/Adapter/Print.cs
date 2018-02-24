@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    interface Print
     {
-        static void Main(string[] args)
-        {
-            AdapterTest.Test();
-
-            Console.ReadKey();
-        }
+        void PrintWeak();
+        void PrintStrong();
     }
 }
