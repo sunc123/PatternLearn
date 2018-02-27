@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public abstract class Link : Item
     {
-        static void Main(string[] args)
-        {
-            AbstractFactoryTest.Test();
+        protected string url;
 
-            Console.ReadKey();
+        public Link(string caption, string url) : base(caption)
+        {
+            this.url = url;
         }
     }
 }

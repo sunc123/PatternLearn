@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactoryTest.cs" />
+    <Compile Include="AbstractFactory\AFFactory.cs" />
+    <Compile Include="AbstractFactory\Item.cs" />
+    <Compile Include="AbstractFactory\Link.cs" />
+    <Compile Include="AbstractFactory\ListFactory.cs" />
+    <Compile Include="AbstractFactory\ListLink.cs" />
+    <Compile Include="AbstractFactory\ListPage.cs" />
+    <Compile Include="AbstractFactory\ListTray.cs" />
+    <Compile Include="AbstractFactory\Page.cs" />
+    <Compile Include="AbstractFactory\Tray.cs" />
     <Compile Include="Adapter\AdapterTest.cs" />
     <Compile Include="Adapter\Print.cs" />
     <Compile Include="Adapter\Banner.cs" />
