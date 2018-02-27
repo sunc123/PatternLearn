@@ -10,9 +10,11 @@ namespace PatternLearn
     {
         static void Main(string[] args)
         {
-            AbstractFactoryTest.Test();
+            BridgeTest.Test();
 
             Console.ReadKey();
         }
     }
+
+
 }

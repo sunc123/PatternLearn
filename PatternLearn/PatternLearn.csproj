@@ -59,6 +59,11 @@
     <Compile Include="Adapter\PrintBanner.cs" />
     <Compile Include="Adapter\Properties.cs" />
     <Compile Include="Adapter\PropertiesPrint.cs" />
+    <Compile Include="Bridge\BridgeTest.cs" />
+    <Compile Include="Bridge\CountDisplay.cs" />
+    <Compile Include="Bridge\Display.cs" />
+    <Compile Include="Bridge\DisplayImpl.cs" />
+    <Compile Include="Bridge\StringDisplayImpl.cs" />
     <Compile Include="Builder\Builder.cs" />
     <Compile Include="Builder\BuilderTest.cs" />
     <Compile Include="Builder\Director.cs" />
