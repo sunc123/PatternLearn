@@ -29,7 +29,7 @@ namespace PatternLearn
         {
             string fileName = title + ".html";
 
-            File.WriteAllText(fileName, MakeHTML(), Encoding.UTF8);
+            System.IO.File.WriteAllText(fileName, MakeHTML(), Encoding.UTF8);
 
             Console.WriteLine("over");
         }
