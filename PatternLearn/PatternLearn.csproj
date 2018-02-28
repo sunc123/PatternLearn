@@ -73,6 +73,12 @@
     <Compile Include="Composite\Directory.cs" />
     <Compile Include="Composite\Entry.cs" />
     <Compile Include="Composite\File.cs" />
+    <Compile Include="Decorator\DecoratorTest.cs" />
+    <Compile Include="Decorator\Milk.cs" />
+    <Compile Include="Decorator\MilkDecorator.cs" />
+    <Compile Include="Decorator\OriginalMilk.cs" />
+    <Compile Include="Decorator\PotatoDeco.cs" />
+    <Compile Include="Decorator\StrawberryDeco.cs" />
     <Compile Include="Factory Method\Factory.cs" />
     <Compile Include="Factory Method\FactoryTest.cs" />
     <Compile Include="Factory Method\IDCard.cs" />

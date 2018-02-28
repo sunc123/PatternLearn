@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
-    {
-        static void Main(string[] args)
+    public class StrawberryDeco : MilkDecorator
+    { 
+        public StrawberryDeco(Milk milk, float cost) : base(milk, cost)
         {
-            DecoratorTest.Test();
-
-            Console.ReadKey();
+            name = "Strawberry";
         }
     }
-
-
 }
