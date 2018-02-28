@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Strategy
     {
-        static void Main(string[] args)
-        {
-            StrategyTest.Test();
+        Hand NextHand();
 
-            Console.ReadKey();
-        }
+        void Study(bool win);
     }
-
-
 }

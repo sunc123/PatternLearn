@@ -91,6 +91,12 @@
     <Compile Include="Singleton\Singleton2.cs" />
     <Compile Include="Singleton\Singleton3.cs" />
     <Compile Include="Singleton\SingletonTest.cs" />
+    <Compile Include="Strategy\Hand.cs" />
+    <Compile Include="Strategy\Player.cs" />
+    <Compile Include="Strategy\ProStrategy.cs" />
+    <Compile Include="Strategy\Strategy.cs" />
+    <Compile Include="Strategy\StrategyTest.cs" />
+    <Compile Include="Strategy\WinningStrategy.cs" />
     <Compile Include="Template Method\AbstarctDisplay.cs" />
     <Compile Include="Template Method\CharDisplay.cs" />
     <Compile Include="Template Method\StringDisplay.cs" />
