@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    public class Directory : Entry
+    public class Directory : Entry, IEnumerable<Entry>
     {
         private string name;
         private List<Entry> list = new List<Entry>();
@@ -45,6 +46,24 @@ namespace PatternLearn
 
             list.ForEach(item => item.PrintList(prefix + "/" + name));
             
+        }
+
+        public override void Accept(Visitor visitor)
+        {
+            visitor.Visit(this);
+        }
+
+        public IEnumerator<Entry> GetEnumerator()
+        { 
+            foreach (var item in list)
+            {
+                yield return item;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

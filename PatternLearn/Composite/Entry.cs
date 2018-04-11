@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    public abstract class Entry
+    public abstract class Entry : VisitElement
     {
         public Entry root;
 
@@ -20,6 +20,8 @@ namespace PatternLearn
         {
             PrintList("");
         }
+
+        public virtual void Accept(Visitor visitor) { }
 
         public override string ToString()
         {

@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public abstract class Visitor
     {
-        static void Main(string[] args)
-        {
-            VisitorTest.Test();
-
-            Console.ReadKey();
-        }
+        public abstract void Visit(File file);
+        public abstract void Visit(Directory directory);
     }
-
-
 }

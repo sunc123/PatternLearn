@@ -111,6 +111,10 @@
     <Compile Include="Template Method\CharDisplay.cs" />
     <Compile Include="Template Method\StringDisplay.cs" />
     <Compile Include="Template Method\TemplateTest.cs" />
+    <Compile Include="Visitor\ListVisitor.cs" />
+    <Compile Include="Visitor\VisitElement.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
+    <Compile Include="Visitor\VisitorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

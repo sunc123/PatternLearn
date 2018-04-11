@@ -36,5 +36,10 @@ namespace PatternLearn
         {
             Console.WriteLine(prefix + "/" + this);
         }
+
+        public override void Accept(Visitor visitor)
+        {
+            visitor.Visit(this);
+        }
     }
 }
