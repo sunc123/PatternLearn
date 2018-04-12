@@ -86,6 +86,10 @@
     <Compile Include="Decorator\OriginalMilk.cs" />
     <Compile Include="Decorator\PotatoDeco.cs" />
     <Compile Include="Decorator\StrawberryDeco.cs" />
+    <Compile Include="Facade\Database.cs" />
+    <Compile Include="Facade\FacadeTest.cs" />
+    <Compile Include="Facade\HtmlWriter.cs" />
+    <Compile Include="Facade\PageMaker.cs" />
     <Compile Include="Factory Method\Factory.cs" />
     <Compile Include="Factory Method\FactoryTest.cs" />
     <Compile Include="Factory Method\IDCard.cs" />
