@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    interface Colleague
     {
-        static void Main(string[] args)
-        {
-            MediatorTest.Test();
+        void SetMediator(Mediator mediator);
 
-            Console.ReadKey();
-        }
+        void SetColleagueEnabled(bool enabled);
     }
-
-
 }
