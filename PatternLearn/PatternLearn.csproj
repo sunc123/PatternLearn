@@ -69,6 +69,13 @@
     <Compile Include="Builder\Director.cs" />
     <Compile Include="Builder\HtmlBuilder.cs" />
     <Compile Include="Builder\TextBuilder.cs" />
+    <Compile Include="ChainofResponsibility\LimitSupprot.cs" />
+    <Compile Include="ChainofResponsibility\NoSupport.cs" />
+    <Compile Include="ChainofResponsibility\OddSupport.cs" />
+    <Compile Include="ChainofResponsibility\SpecialSupport.cs" />
+    <Compile Include="ChainofResponsibility\Support.cs" />
+    <Compile Include="ChainofResponsibility\SupportTest.cs" />
+    <Compile Include="ChainofResponsibility\Trouble.cs" />
     <Compile Include="Composite\CompositeTest.cs" />
     <Compile Include="Composite\Directory.cs" />
     <Compile Include="Composite\Entry.cs" />

@@ -10,7 +10,7 @@ namespace PatternLearn
     {
         static void Main(string[] args)
         {
-            VisitorTest.Test();
+            SupportTest.Test();
 
             Console.ReadKey();
         }
