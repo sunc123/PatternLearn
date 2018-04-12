@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Observer
     {
-        static void Main(string[] args)
-        {
-            ObserverTest.Test();
-
-            Console.ReadKey();
-        }
+        void Update(NumberGenerator generator);
     }
-
-
 }
