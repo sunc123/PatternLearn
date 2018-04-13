@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Printable
     {
-        static void Main(string[] args)
-        {
-            ProxyTest.Test();
-
-            Console.ReadKey();
-        }
+        void SetPrinterName(string name);
+        string GetPrinterName();
+        void Print(string str);
     }
-
-
 }

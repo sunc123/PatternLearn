@@ -128,6 +128,10 @@
     <Compile Include="Prototype\MessageBox.cs" />
     <Compile Include="Prototype\PrototypeTest.cs" />
     <Compile Include="Prototype\UnderPen.cs" />
+    <Compile Include="Proxy\Printable.cs" />
+    <Compile Include="Proxy\Printer.cs" />
+    <Compile Include="Proxy\PrinterProxy.cs" />
+    <Compile Include="Proxy\ProxyTest.cs" />
     <Compile Include="Singleton\Singleton1.cs" />
     <Compile Include="Singleton\Singleton2.cs" />
     <Compile Include="Singleton\Singleton3.cs" />
