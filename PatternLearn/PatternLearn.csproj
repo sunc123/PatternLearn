@@ -107,6 +107,9 @@
     <Compile Include="Mediator\LoginFrame.cs" />
     <Compile Include="Mediator\Mediator.cs" />
     <Compile Include="Mediator\MediatorTest.cs" />
+    <Compile Include="Memento\Gamer.cs" />
+    <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Memento\MementoTest.cs" />
     <Compile Include="Observer\DigitObserver.cs" />
     <Compile Include="Observer\GraphObserver.cs" />
     <Compile Include="Observer\IncremetalNumberGenerator.cs" />
