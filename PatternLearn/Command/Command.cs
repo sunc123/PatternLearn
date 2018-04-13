@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public interface Command
     {
-        static void Main(string[] args)
-        {
-            CommandTest.Test();
-
-            Console.ReadKey();
-        }
+        void Execute();
     }
-
-
 }

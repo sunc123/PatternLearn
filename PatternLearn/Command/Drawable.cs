@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    interface Drawable
     {
-        static void Main(string[] args)
-        {
-            CommandTest.Test();
-
-            Console.ReadKey();
-        }
+        void Draw(int x, int y, char ch);
     }
-
-
 }

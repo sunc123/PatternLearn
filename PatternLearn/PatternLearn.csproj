@@ -76,6 +76,12 @@
     <Compile Include="ChainofResponsibility\Support.cs" />
     <Compile Include="ChainofResponsibility\SupportTest.cs" />
     <Compile Include="ChainofResponsibility\Trouble.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\CommandTest.cs" />
+    <Compile Include="Command\Drawable.cs" />
+    <Compile Include="Command\DrawCanvas.cs" />
+    <Compile Include="Command\DrawCommand.cs" />
+    <Compile Include="Command\MacroCommand.cs" />
     <Compile Include="Composite\CompositeTest.cs" />
     <Compile Include="Composite\Directory.cs" />
     <Compile Include="Composite\Entry.cs" />
