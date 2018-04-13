@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace PatternLearn
 {
-    class Program
+    public class FlyweightTest
     {
-        static void Main(string[] args)
+        public static void Test()
         {
-            FlyweightTest.Test();
+            BigString str = new BigString("hello world");
 
-            Console.ReadKey();
+            str.Print();
         }
     }
-
-
 }

@@ -95,6 +95,10 @@
     <Compile Include="Factory Method\IDCard.cs" />
     <Compile Include="Factory Method\IDCardFactory.cs" />
     <Compile Include="Factory Method\Product.cs" />
+    <Compile Include="Flyweight\BigChar.cs" />
+    <Compile Include="Flyweight\BigCharFactory.cs" />
+    <Compile Include="Flyweight\BigString.cs" />
+    <Compile Include="Flyweight\FlyweightTest.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\BookShelfIterator.cs" />
     <Compile Include="Iterator\Iterator.cs" />
