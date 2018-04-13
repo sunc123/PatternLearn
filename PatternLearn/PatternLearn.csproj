@@ -128,6 +128,13 @@
     <Compile Include="Singleton\Singleton2.cs" />
     <Compile Include="Singleton\Singleton3.cs" />
     <Compile Include="Singleton\SingletonTest.cs" />
+    <Compile Include="State\Context.cs" />
+    <Compile Include="State\DayState.cs" />
+    <Compile Include="State\LunchState.cs" />
+    <Compile Include="State\NightState.cs" />
+    <Compile Include="State\SafeFrame.cs" />
+    <Compile Include="State\State.cs" />
+    <Compile Include="State\StateTest.cs" />
     <Compile Include="Strategy\Hand.cs" />
     <Compile Include="Strategy\Player.cs" />
     <Compile Include="Strategy\ProStrategy.cs" />
